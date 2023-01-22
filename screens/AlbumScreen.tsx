@@ -9,7 +9,7 @@ const AlbumScreen = () => {
 	const route = useRoute();
 
 	useEffect(() => {
-		console.log(route);
+		
 	},[])
 	return(
 	<View>

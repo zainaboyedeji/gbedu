@@ -24,7 +24,7 @@ import {
 	return (
 	  <BottomTab.Navigator
 		initialRouteName="TabOne"
-		tabBarOptions={{ activeTintColor: Colors[colorScheme].tint }}>
+		screenOptions={{ activeTintColor: Colors[colorScheme].tint }}>
 		<BottomTab.Screen
 		  name="Home"
 		  component={TabOneNavigator}
