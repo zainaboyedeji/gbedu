@@ -23,7 +23,7 @@ const PlayerWidget = () => {
 
 
 	const onPlayBackStatusUpdate = (status) => {
-		console.log(status)
+		// console.log(status)
 		setIsPlaying(status.isPlaying)
 		setDuration(status.durationMillis)
 		setPosition(status.positionMills)
